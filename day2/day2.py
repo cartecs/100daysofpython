@@ -36,4 +36,11 @@ BMI = (int_weight/(float_height**2))
 int_BMI = int(BMI)
 
 print(f"{int_weight} / ({float_height} x {float_height} = {BMI}")
-print(f"Rounded down to: {int_BMI}")
+print(f"Rounded down to: {int_BMI}") # floor division //
+
+#Exercise 3
+age = input("What is your current age?")
+int_age = int(age)
+years_left = 90-int_age
+print(f"You have {years_left*365} days, {years_left*52} weeks, or {years_left*12} months left to live.")
+
