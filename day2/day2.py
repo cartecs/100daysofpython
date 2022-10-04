@@ -44,3 +44,6 @@ int_age = int(age)
 years_left = 90-int_age
 print(f"You have {years_left*365} days, {years_left*52} weeks, or {years_left*12} months left to live.")
 
+#format decimals
+Test = "{:.4f}".format(1.4599999)
+print(Test)
