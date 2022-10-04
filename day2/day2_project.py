@@ -10,4 +10,4 @@ int_people = int(input("How many people are splitting the bill?"))
 splittotal = round(total*float_percent/int_people,2)
 print(f"Each person should pay: {splittotal}")
 
-
+#complete
