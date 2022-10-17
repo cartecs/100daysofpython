@@ -6,6 +6,7 @@ word_list = ["aardvark", "baboon", "camel"]
 
 word= random.randint(0,2)
 chosen_word = word_list[word]
+#choice 
 
 #TODO-2 - Ask the user to guess a letter and assign their answer to a variable called guess. Make guess lowercase.
 guess = (input("Guess a letter:  \n")).lower()
